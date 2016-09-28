@@ -3,34 +3,17 @@ body {
   font-size: 1.1em;
 }
 
-.left-nav {
-  color: #fff;
-  padding: 10px;
-  margin: 5px;
-  background-color: #000;
+.content-section {
+  min-height: 60vh;
 }
 
-.left-nav a {
-  color: #fff;
+.top-link {
+  color: #9E9E9E;
 }
 
-.left-nav a:hover {
-  color: #E0E0E0;
-}
-
-.nav-link{
-  margin: 10px;
-  padding: 5px;
-}
-
-.link-div {
-  text-align: right;
-  border-bottom: 2px solid #000;
-  padding: 10px;
-}
-
-.link-div:hover {
-  border-bottom: 2px solid #E0E0E0;
+.top-link:hover {
+  color: #FFF;
+  background-color: #212121;
 }
 
 .headline {
@@ -64,4 +47,8 @@ body {
   background-color: #000;
   font-size: 1.5em;
   padding: 5px;
+}
+
+.fa {
+  color: #fff;
 }

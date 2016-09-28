@@ -3,7 +3,7 @@
 <head>
   <title>a.chan</title>
 
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
@@ -13,16 +13,21 @@
 
 <body>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="left-nav pushpin pinned">
-      <p>
-        <div class="row link-div"><span class="nav-link"><a href="#">About</a> //</span></div><br>
-        <div class="row link-div"><span class="nav-link"><a href="#resume">Resume</a> //</span></div><br>
-        <div class="row link-div"><span class="nav-link"><a href="#portfolio">Portfolio</a> //</span></div><br> 
-        <div class="row link-div"><span class="nav-link"><a href="#contact">Contact</a> //</span></div>
-      </p>
-    </div>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper black">
+        <a href="#" class="brand-logo center white-text">a.chan</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="#" class="top-link">About</a></li>
+          <li><a href="#resume" class="top-link">Resume</a></li>
+          <li><a href="#portfolio" class="top-link">Portfolio</a></li>
+          <li><a href="#contact" class="top-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
+  <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="center border-div"><span class="border-box">a.chan</span></div>
@@ -35,7 +40,7 @@
     <div class="parallax"><img src="background1.jpg" alt=""></div>
   </div>
 
-  <div class="container">
+  <div class="container content-section">
     <div class="section">
       <p>Pic here...</p>
       <div class="headline">Stats:</div>
@@ -46,21 +51,21 @@
   </div>
 
 
+  <a name="resume"></a>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <a name="resume"></a>
           <div class="center border-div"><span class="smaller-box">Resume</span></div>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background4-2.jpg" alt=""></div>
+    <div class="parallax"><img src="background2.jpg" alt=""></div>
   </div>
 
-  <div class="container">
+  <div class="container content-section">
     <div class="section">
       <div class="headline">Skills:</div>
       Ruby<br>
@@ -80,11 +85,11 @@
   </div>
 
 
+  <a name="portfolio"></a>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <a name="portfolio"></a>
           <div class="center border-div"><span class="smaller-box">Portfolio</span></div>
         </div>
       </div>
@@ -92,7 +97,7 @@
     <div class="parallax"><img src="background3.jpg" alt=""></div>
   </div>
 
-  <div class="container">
+  <div class="container content-section">
     <div class="section">
       <!--   Icon Section   -->
       <div class="row">
@@ -121,7 +126,6 @@
         </div>
       </div>
 
-
     </div>
   </div>
 
@@ -134,28 +138,25 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background4-3.jpg" alt=""></div>
+    <div class="parallax"><img src="background4.jpg" alt=""></div>
   </div>
 
 
   <footer class="page-footer black">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col l8 s12">
           <a name="contact"></a>
-          <h5 class="white-text">Contact Me</h5>
+          <h5 class="white-text">> Contact Me</h5>
           <p class="grey-text text-lighten-4">I am currently seeking full time and contract opportunities.</p>
 
 
         </div>
-        <div class="col l3 s12">
-          
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Find Me</h5>
+        <div class="col l4 s12">
+          <h5 class="white-text">> Find Me</h5>
           <ul>
-            <li><a class="white-text" href="#!">GitHub</a></li>
-            <li><a class="white-text" href="#!">LinkedIn</a></li>
+            <li><a class="white-text" href="http://github.com/amyology"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+            <li><a class="white-text" href="https://linked.com/in-amy-chan"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
           </ul>
         </div>
       </div>
@@ -169,6 +170,7 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/a0d3de86f4.js"></script>
 
 </body>
 </html>
